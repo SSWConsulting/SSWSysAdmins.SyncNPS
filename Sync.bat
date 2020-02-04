@@ -1,2 +1,5 @@
+#Run on master NPS server
 netsh nps export filename = “C:\radius\config.xml” exportPSK = YES
-netsh nps import filename = “\masterIP\radius\config.xml”
+
+#Run on secondary NPS server
+netsh nps import filename = “\\<<Fileshare>>\radius\config.xml”
