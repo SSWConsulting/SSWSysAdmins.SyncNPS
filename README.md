@@ -1,8 +1,10 @@
 # SSW.SyncNPS
-Sync NPS config between DCs
+The script is used to sync NPS (radius), this is what allows us to connect to our wifi using our SSW credentials, between our two Sydney DCs. That way we have some redundancy with this if one of the servers is offline.
 
-VPN settings should only be done once. Now you can change one DC and have it replicate to the other DCs via PowerShell
+Sync NPS config between DCs
 
 This needs to run on the master NPS server as a scheduled task
 
 Replace masterIP with the IP of the secondary NPS server
+
+
